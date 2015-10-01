@@ -1,6 +1,7 @@
 package com.packtpub.wflydevelopment.chapter2;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/PhatServlet")
 public class PhatServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+	private static final String CONTENT_TYPE = "text/html;charset=UTF-8";
+	private static final String MESSAGE = "<!DOCTYPE html><html>"
+			+ "<head><title>Hello!</title></head>"
+			+ "<body>Hello World WildFly</body>" + "</html>";  
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -26,7 +30,7 @@ public class PhatServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 	}
 
 	/**

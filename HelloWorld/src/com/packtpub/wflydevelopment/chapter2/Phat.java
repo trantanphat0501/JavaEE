@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Phat
  */
-@WebServlet("/Phat")
+@WebServlet("/PhatTran")
 public class Phat extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

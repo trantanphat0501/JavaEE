@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
-Phat's comments:hello2, a servlet-based web application in which the components are 
-implemented by two servlet classes. Without deployment description web.xml file
-
     JBoss, Home of Professional Open Source
     Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
     contributors by the @authors tag. See the copyright.txt in the
@@ -24,10 +20,10 @@ implemented by two servlet classes. Without deployment description web.xml file
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.glassfish.javaeetutorial</groupId>
-    <artifactId>hello2</artifactId>
+    <artifactId>guessnumber-jsf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>WildFly Quickstarts: hello2</name>
+    <name>WildFly Quickstarts: guessnumber-jsf</name>
     <description>A starter Java EE 7 webapp project for use on JBoss WildFly / WildFly, generated from the jboss-javaee6-webapp archetype</description>
 
     <url>http://wildfly.org</url>
@@ -92,13 +88,6 @@ implemented by two servlet classes. Without deployment description web.xml file
     </dependencyManagement>
 
     <dependencies>
-
-        <!-- Phat START- Import the Servlet API, we use provided scope as the API is included in JBoss WildFly -->
-        <dependency>
-            <groupId>org.jboss.spec.javax.servlet</groupId>
-            <artifactId>jboss-servlet-api_3.1_spec</artifactId>
-            <scope>provided</scope>
-        </dependency>
 
         <!-- First declare the APIs we depend on and need for compilation. All 
             of them are provided by JBoss WildFly -->
